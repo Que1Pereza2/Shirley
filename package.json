@@ -1,0 +1,32 @@
+{
+  "name": "shirley",
+  "version": "1.0.0",
+  "description": "NodeJS server with a Python client that uses Dijkstra's algorithm to find the best route, from one city to another, that an airplane can take to get to its destination",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Que1Pereza2/Shirley.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Que1Pereza2/Shirley/issues"
+  },
+  "homepage": "https://github.com/Que1Pereza2/Shirley#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "node-dijkstra": "^2.5.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.5",
+    "shirley": "file:"
+  }
+}
